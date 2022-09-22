@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAV */
+nav{
+    background-color: rgb(231, 231, 0);
+}
+.darmargen{
+    margin: 50px;
+}
+.navestadios{
+    background-color: darkcyan;
+}
+
+/* Diseño responsive*/
+@media screen and (max-width: 480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        margin:5px;
+   }
+   #bodyindex{
+    background-color: azure;
+   }
+   header nav ul li a{
+    color: rgb(77, 77, 77);
+   }
+}
+@media screen and (max-width: 480px){
+    .fotoestadio{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+.nuevaClase{
+    color: black;
+}

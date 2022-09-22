@@ -1,0 +1,53 @@
+/*estadio.html*/
+#bodyestadios{
+    background-image: url(../images/fondoestadios.jpg);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 3px 10px;
+    border: #aadde3 9px solid;
+    border-radius: 20px;
+    background-color: beige;
+}
+footer{
+    a{
+        text-decoration: none;
+            font-size: 27px;
+            color: black;
+    }
+}
+#bodyestadios{
+    div{
+        article{
+            p{
+                text-align: center;
+                font-size: 18px;
+                padding: 5px;
+                background-color: rgb(104, 204, 219);
+                margin-bottom: 50px;
+                color: rgb(255, 255, 255);
+                border-radius: 10px 40px 40px 10px;  
+            }
+        }
+    }
+}
+#bodyestadios div article h3{
+    text-align: center;
+    margin: 70px;
+    font-size: 60px;
+    background-color: beige
+}
+.fotoestadio{
+    display: flex;
+    justify-content: center;
+}
+#bodyestadios div{
+    margin-left: 10px;
+}
+#bodyestadios header h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
