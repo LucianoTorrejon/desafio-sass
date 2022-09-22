@@ -2,9 +2,11 @@
 .navfixed{
     position: fixed;
 }
-section p{
-    text-align: center;
-    font-size: 30px;
+section{
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
 }
 .grid-container{
     display: grid;
@@ -29,11 +31,23 @@ section p{
     filter: opacity(0.9);
     transform: scale(1.04);
 }
-#partidos article div img{
-    width: 55%;
+#partidos{
+    article{
+        div{
+            img{
+                width: 55%;
+            }
+        }
+    }
 }
-#selecciones article div img{
-    width: 60%;
+#selecciones{
+    article{
+        div{
+            img{
+                width: 60%;
+            }
+        }
+    }
 }
 .footerindex{
     display: flex;
@@ -44,49 +58,72 @@ section p{
     border-radius: 20px;
     background-color: beige;
 }
-#partidos article div img{
-    margin: 50px;
+#partidos{
+    article{
+        div{
+            img{
+                margin: 50px;
+            }
+        }
+    }
 }
-#partidos article h2{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-decoration: none;
-    background-color: rgb(0, 95, 95);
-    color: white;
+#partidos{
+    article{
+        h2{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-decoration: none;
+            background-color: rgb(0, 95, 95);
+            color: white;
+        }
+    }
 }
-#partidos article p{
-    text-align: center;
-    font-size: 18px;
-    width: 680px;
+#partidos{
+    article{
+        p{
+            text-align: center;
+            font-size: 18px;
+            width: 680px;
 
-    background-color: rgb(106, 71, 109);
-    margin-bottom: 50px;
-    color: antiquewhite;
-    border-radius: 10px 40px 40px 10px;
+            background-color: rgb(106, 71, 109);
+            margin-bottom: 50px;
+            color: antiquewhite;
+            border-radius: 10px 40px 40px 10px;
+        }
+    }
 }
-#selecciones article p{
-    width: 600px;
-    text-align: center;
-    margin-bottom: 50px;
-    border: none;
-    border-radius: 40px 10px;
-    background: rgb(122, 118, 93);
+#selecciones{
+    article{
+        p{
+            width: 600px;
+            text-align: center;
+            margin-bottom: 50px;
+            border: none;
+            border-radius: 40px 10px;
+            background: rgb(122, 118, 93);
+        }
+    }
 }
-#selecciones article h2{
-    text-align: center;
-    margin-bottom: 50px;
-    text-decoration: none;
-    background-color: rgb(0, 95, 95);
-    color: white;
+#selecciones{
+    article{
+        h2{
+            text-align: center;
+            margin-bottom: 50px;
+            text-decoration: none;
+            background-color: rgb(0, 95, 95);
+            color: white;
+        }
+    }
 }
-#headindex p{
-    background-color: azure;
-    margin: 50px;
-    color: black;
-    border-radius: 30px;
-    padding: 6px;
-    text-align: center;
-
+#headindex{
+    p{
+        background-color: azure;
+        margin: 50px;
+        color: black;
+        border-radius: 30px;
+        padding: 6px;
+        text-align: center;
+    }
 }
 #bodyindex{
     background-color: rgb(172, 150, 122);
