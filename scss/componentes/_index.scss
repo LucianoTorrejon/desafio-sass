@@ -45,7 +45,25 @@ section{
         div{
             img{
                 width: 60%;
+                margin: 50px;
             }
+        }
+        h2{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-decoration: none;
+            background-color: rgb(0, 95, 95);
+            color: white;
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+            width: 680px;
+
+            background-color: rgb(106, 71, 109);
+            margin-bottom: 50px;
+            color: $bg-black;
+            border-radius: 10px 40px 40px 10px;
         }
     }
 }
@@ -60,26 +78,13 @@ section{
 }
 #partidos{
     article{
-        div{
-            img{
-                margin: 50px;
-            }
-        }
-    }
-}
-#partidos{
-    article{
         h2{
             margin-top: 50px;
             margin-bottom: 50px;
             text-decoration: none;
             background-color: rgb(0, 95, 95);
-            color: white;
+            color: nth($colores, $n: 6);
         }
-    }
-}
-#partidos{
-    article{
         p{
             text-align: center;
             font-size: 18px;
@@ -92,30 +97,15 @@ section{
         }
     }
 }
-#selecciones{
-    article{
-        p{
-            width: 600px;
-            text-align: center;
-            margin-bottom: 50px;
-            border: none;
-            border-radius: 40px 10px;
-            background: rgb(122, 118, 93);
-        }
-    }
-}
-#selecciones{
-    article{
-        h2{
-            text-align: center;
-            margin-bottom: 50px;
-            text-decoration: none;
-            background-color: rgb(0, 95, 95);
-            color: white;
-        }
-    }
-}
 #headindex{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt47319d1e75659cac/615f691353b9be336e3e8832/e01689e5430f659d403da9ff41b4ab60d6ee455a.jpg);
+    height: 650px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
     p{
         background-color: azure;
         margin: 50px;
@@ -128,16 +118,7 @@ section{
 #bodyindex{
     background-color: rgb(172, 150, 122);
 }
-#headindex{background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt47319d1e75659cac/615f691353b9be336e3e8832/e01689e5430f659d403da9ff41b4ab60d6ee455a.jpg);
-    height: 650px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-}
 #inicio{
-    color: white;
+    color: nth($colores, $n: 6);
     background-color: rgb(0, 95, 95);
 }

@@ -1,49 +1,10 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* NAV */
-nav {
-  background-color: rgb(231, 231, 0);
-}
-
-.darmargen {
-  margin: 50px;
-}
-
-.navestadios {
-  background-color: darkcyan;
-}
-
-/* Diseño responsive*/
-@media screen and (max-width: 480px){
-  .grid-container{
-    grid-template-columns: 1fr;
-    margin: 5px;
-  }
-  #bodyindex{
-    background-color: azure;
-  }
-  header nav ul li a{
-    color: rgb(77, 77, 77);
-  }
-}
-@media screen and (max-width: 480px) {
-  .fotoestadio {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-}
-.nuevaClase {
-  color: black;
-}
-
 /*top5.html*/
 body article img {
   width: 70%;
+}
+body header {
+  overflow: hidden;
 }
 
 .centrar {
@@ -124,10 +85,6 @@ body article img {
   margin-bottom: 50px;
 }
 
-body header {
-  overflow: hidden;
-}
-
 .nombselec {
   font-size: 50px;
   text-align: center;
@@ -149,13 +106,17 @@ footer {
   border-radius: 20px;
   background-color: beige;
 }
-
 footer a {
   text-decoration: none;
   font-size: 27px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
+#bodyestadios header h1 {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
 #bodyestadios div article p {
   text-align: center;
   font-size: 18px;
@@ -165,7 +126,6 @@ footer a {
   color: rgb(255, 255, 255);
   border-radius: 10px 40px 40px 10px;
 }
-
 #bodyestadios div article h3 {
   text-align: center;
   margin: 70px;
@@ -176,12 +136,6 @@ footer a {
 .fotoestadio {
   display: flex;
   justify-content: center;
-}
-
-#bodyestadios header h1 {
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  margin-top: 50px;
 }
 
 /*index.html*/
@@ -227,6 +181,23 @@ section p {
 
 #selecciones article div img {
   width: 60%;
+  margin: 50px;
+}
+#selecciones article h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  background-color: rgb(0, 95, 95);
+  color: white;
+}
+#selecciones article p {
+  text-align: center;
+  font-size: 18px;
+  width: 680px;
+  background-color: rgb(106, 71, 109);
+  margin-bottom: 50px;
+  color: black;
+  border-radius: 10px 40px 40px 10px;
 }
 
 .footerindex {
@@ -239,10 +210,6 @@ section p {
   background-color: beige;
 }
 
-#partidos article div img {
-  margin: 50px;
-}
-
 #partidos article h2 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -250,7 +217,6 @@ section p {
   background-color: rgb(0, 95, 95);
   color: white;
 }
-
 #partidos article p {
   text-align: center;
   font-size: 18px;
@@ -261,23 +227,16 @@ section p {
   border-radius: 10px 40px 40px 10px;
 }
 
-#selecciones article p {
-  width: 600px;
-  text-align: center;
+#headindex {
+  background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt47319d1e75659cac/615f691353b9be336e3e8832/e01689e5430f659d403da9ff41b4ab60d6ee455a.jpg);
+  height: 650px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 50px;
-  border: none;
-  border-radius: 40px 10px;
-  background: rgb(122, 118, 93);
 }
-
-#selecciones article h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  text-decoration: none;
-  background-color: rgb(0, 95, 95);
-  color: white;
-}
-
 #headindex p {
   background-color: azure;
   margin: 50px;
@@ -291,20 +250,52 @@ section p {
   background-color: rgb(172, 150, 122);
 }
 
-#headindex {
-  background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt47319d1e75659cac/615f691353b9be336e3e8832/e01689e5430f659d403da9ff41b4ab60d6ee455a.jpg);
-  height: 650px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 50px;
-}
-
 #inicio {
   color: white;
   background-color: rgb(0, 95, 95);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV */
+nav {
+  background-color: rgb(231, 231, 0);
+}
+
+.darmargen {
+  margin: 50px;
+}
+
+.navestadios {
+  background-color: darkcyan;
+}
+
+/* Diseño responsive*/
+@media screen and (max-width: 480px) {
+  .fotoestadio {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+.nuevaClase {
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin: 5px;
+  }
+  #bodyindex {
+    background-color: azure;
+  }
+  header nav ul li a {
+    color: rgb(77, 77, 77);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
