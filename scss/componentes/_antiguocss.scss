@@ -15,18 +15,6 @@ nav{
 
 /* Diseño responsive*/
 @media screen and (max-width: 480px){
-    .grid-container{
-        grid-template-columns: 1fr;
-        margin:5px;
-   }
-   #bodyindex{
-    background-color: azure;
-   }
-   header nav ul li a{
-    color: rgb(77, 77, 77);
-   }
-}
-@media screen and (max-width: 480px){
     .fotoestadio{
         flex-direction: column;
         flex-wrap: wrap;
@@ -35,4 +23,16 @@ nav{
 }
 .nuevaClase{
     color: black;
+}
+@media screen and (max-width: 480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        margin:5px;
+   }
+   #bodyindex{
+        background-color: azure;
+   }
+   header nav ul li a{
+        color: rgb(77, 77, 77);
+   }
 }

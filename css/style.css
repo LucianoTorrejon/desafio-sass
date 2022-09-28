@@ -18,15 +18,15 @@ nav {
 }
 
 /* Diseño responsive*/
-@media screen and (max-width: 480px) {
-  .grid-container {
+@media screen and (max-width: 480px){
+  .grid-container{
     grid-template-columns: 1fr;
     margin: 5px;
   }
-  #bodyindex {
+  #bodyindex{
     background-color: azure;
   }
-  header nav ul li a {
+  header nav ul li a{
     color: rgb(77, 77, 77);
   }
 }
