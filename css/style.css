@@ -1,15 +1,17 @@
 @charset "UTF-8";
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 /*top5.html*/
 body article img {
   width: 70%;
 }
 body header {
   overflow: hidden;
-}
-
-.centrar {
-  display: flex;
-  justify-content: center;
 }
 
 #titulotop5 {
@@ -184,11 +186,13 @@ section p {
   margin: 50px;
 }
 #selecciones article h2 {
+  font-size: 40px;
+  background-color: rgb(0, 95, 95);
+  color: white;
   margin-top: 50px;
   margin-bottom: 50px;
   text-decoration: none;
-  background-color: rgb(0, 95, 95);
-  color: white;
+  text-align: center;
 }
 #selecciones article p {
   text-align: center;
@@ -240,7 +244,7 @@ section p {
 #headindex p {
   background-color: azure;
   margin: 50px;
-  color: black;
+  color: rgb(0, 0, 0);
   border-radius: 30px;
   padding: 6px;
   text-align: center;

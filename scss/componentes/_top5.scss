@@ -11,8 +11,7 @@ body{
 }
   
 .centrar {
-  display: flex;
-  justify-content: center;
+  @extend %centrado;
 }
 
 #titulotop5 {
