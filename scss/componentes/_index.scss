@@ -1,7 +1,4 @@
 /*index.html*/
-.navfixed{
-    position: fixed;
-}
 section{
     p{
         text-align: center;
@@ -66,15 +63,6 @@ section{
         }
     }
 }
-.footerindex{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 3px 10px;
-    border: #aadde3 9px solid;
-    border-radius: 20px;
-    background-color: beige;
-}
 #partidos{
     article{
         h2{
@@ -98,7 +86,7 @@ section{
 }
 #headindex{
     background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt47319d1e75659cac/615f691353b9be336e3e8832/e01689e5430f659d403da9ff41b4ab60d6ee455a.jpg);
-    height: 650px;
+    height: 1000px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -120,4 +108,14 @@ section{
 #inicio{
     color: nth($colores, $n: 6);
     background-color: rgb(0, 95, 95);
+}
+
+@media screen and (max-width: 1060px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+        }
+}
+.footer-color {
+    background: linear-gradient(to top, #343a41 0%, #666699 100%);
 }
